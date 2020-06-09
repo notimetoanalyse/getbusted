@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="header">
+          <img src="logo.svg" alt="" />
+        </div>
+        <div class="main">
+          <div class="welcome-words">
+            <h1>We know who you are!</h1>
+            <p>
+              So you are sure that nobody on web knows where you are from, which
+              browser or laptop you use. Cool, let’s find this out. Enter your
+              email and be ready to check your inbox.
+            </p>
+            <div class="input-container">
+              <div class="input-design">
+                <img src="location-icon.svg" class="location-icon" />
+                <input
+                  type="email"
+                  placeholder="Enter your email"
+                  class="input-field"
+                  id="email-input"
+                />
+                <img
+                  src="search-input.svg"
+                  class="search-icon"
+                  id="submit-button"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="art">
+            <img src="picture2.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <section id="example">
+      <div class="example-container">
+        <div class="title">
+          <h1>View everyone</h1>
+          <p>Get busted with GetBusted</p>
+        </div>
+        <div class="users-list">
+          <table>
+            <tr>
+              <td>
+                Latest busted &nbsp; &nbsp;<span class="total-highlighted"
+                  ><span class="total-number">25</span> total</span
+                >
+              </td>
+            </tr>
+            <tr>
+              <td>Busted ID</td>
+              <td>Date</td>
+              <td>Email</td>
+              <td>Location</td>
+            </tr>
+            <tr id="first-user" class="table-border">
+              <td id="id">23412355-2</td>
+              <td id="date">04/28/2018</td>
+              <td id="email">Maria Anders</td>
+              <td id="location">Kharkiv, Ukraine</td>
+            </tr>
+            <tr id="second-user" class="table-border">
+              <td id="id">23412355-2</td>
+              <td id="date">04/28/2018</td>
+              <td id="email">Maria Anders</td>
+              <td id="location">Kharkiv, Ukraine</td>
+            </tr>
+            <tr id="third-user" class="table-border">
+              <td id="id">23412355-2</td>
+              <td id="date">04/28/2018</td>
+              <td id="email">Maria Anders</td>
+              <td id="location">Kharkiv, Ukraine</td>
+            </tr>
+            <tr id="fourth-user" class="table-border">
+              <td id="id">23412355-2</td>
+              <td id="date">04/28/2018</td>
+              <td id="email">Maria Anders</td>
+              <td id="location">Kharkiv, Ukraine</td>
+            </tr>
+            <tr id="fifth-user" class="table-border">
+              <td id="id">23412355-2</td>
+              <td id="date">04/28/2018</td>
+              <td id="email">Maria Anders</td>
+              <td id="location">Kharkiv, Ukraine</td>
+            </tr>
+            <tr id="sixth-user" class="table-border">
+              <td id="id">23412355-2</td>
+              <td id="date">04/28/2018</td>
+              <td id="email">Maria Anders</td>
+              <td id="location">Kharkiv, Ukraine</td>
+            </tr>
+            <tr class="table-border">
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>
+                <span><span id="pages-count">1-6</span> of <span class="total-number">25</span> &nbsp;</span
+                ></span>
+                <span><i class="arrow left" id="left-arrow"></i></span>
+                <span class="right-arrow" id="right-arrow">
+                  <i class="arrow right"></i
+                ></span>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+<!--1) Container
+2)h1, p
+3) ul
+with - spans with classes? yup -->

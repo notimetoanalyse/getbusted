@@ -1,0 +1,196 @@
+/* 1st color: #0470DC 
+2nd colro: #13F1FC */
+
+@import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+@font-face {
+  font-family: "Gilroy Regular";
+  src: url("Gilroy-Regular.eot");
+  src: url("Gilroy-Regular.eot?#iefix") format("embedded-opentype"),
+    url("Gilroy-Regular.woff") format("woff"),
+    url("Gilroy-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 20px 20px;
+  background: url("background.png") no-repeat;
+  width: 100%;
+  display: block;
+  z-index: 1;
+  position: relative;
+  height: 870px;
+}
+
+.header {
+  margin: 2rem 4rem;
+  display: flex;
+  align-items: left;
+}
+
+.main {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2rem 2rem;
+}
+
+.welcome-words {
+  display: block;
+  color: #fff;
+  align-items: center;
+  margin: 6rem 2rem;
+}
+
+.welcome-words h1 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+}
+
+.welcome-words p {
+  font-family: "Cabin", sans-serif;
+  font-size: 18px;
+  color: #b7e6ff;
+  line-height: 25px;
+  margin-bottom: 40px;
+}
+
+.input-container > * {
+  display: inline;
+}
+
+.input-container {
+  background: #fff;
+  width: 475px;
+  height: 62px;
+  border-radius: 34px;
+  padding: 3px 3px 0px 3px;
+}
+
+.input-container .location-icon {
+  width: 19px;
+  height: 24.85px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.input-container .input-field {
+  color: #bdd3df;
+  margin-left: 25px;
+  width: 90%;
+  outline: none;
+  border: none;
+  font-size: 19px;
+  font-family: "Cabin";
+}
+
+::placeholder {
+  color: #bdd3df;
+  opacity: 1;
+}
+
+.input-container .search-icon {
+  width: 88px;
+  height: 54px;
+  margin: 2.5px 2px 0 0;
+  cursor: pointer;
+}
+
+.input-design {
+  display: flex;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  /* border: 1px solid #dddddd; */
+  text-align: left;
+  padding: 12px;
+}
+
+.example-container {
+  height: 670px;
+  /* width: ; */
+}
+.example-container .title h1 {
+  font-size: 50px;
+  text-align: center;
+  color: #4f79a4;
+  font-weight: extrabold;
+  font-family: "Gilroy";
+
+
+}
+
+.example-container .title p {
+  font-family: "Gilroy";
+  font-weight: light;
+  font-size: 50px;
+  text-align: center;
+  color: #4f79a4;
+  margin-top: -25px;
+}
+
+.users-list {
+  border: 1px solid #E4E7EB;
+  padding: 0px 0px 0px 0px;
+  margin: 30px 220px;
+  box-shadow: 0 0 2px #E4E7EB;
+  border-radius: 3px;
+  overflow-x: auto;
+}
+
+td {
+  padding: 20px;
+}
+
+/* Arrows */
+.arrow {
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  opacity: 0.54;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  cursor: pointer;
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  cursor: pointer;
+}
+
+/* Span "Total" */
+.total-highlighted {
+  color: #9ea0a5;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.table-border {
+  border-top: 1px solid #E4E7EB;;
+  width: 110%;
+}​
