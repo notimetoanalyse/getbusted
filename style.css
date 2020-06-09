@@ -128,8 +128,6 @@ th {
   color: #4f79a4;
   font-weight: extrabold;
   font-family: "Gilroy";
-
-
 }
 
 .example-container .title p {
@@ -142,10 +140,10 @@ th {
 }
 
 .users-list {
-  border: 1px solid #E4E7EB;
+  border: 1px solid #e4e7eb;
   padding: 0px 0px 0px 0px;
   margin: 30px 220px;
-  box-shadow: 0 0 2px #E4E7EB;
+  box-shadow: 0 0 2px #e4e7eb;
   border-radius: 3px;
   overflow-x: auto;
 }
@@ -186,6 +184,6 @@ td {
 }
 
 .table-border {
-  border-top: 1px solid #E4E7EB;;
+  border-top: 1px solid #e4e7eb;
   width: 110%;
-}​
+}
