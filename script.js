@@ -32,7 +32,7 @@ const isValidEmail = (value) => {
   return re.test(String(value).toLowerCase());
 };
 
-// HTTP requests
+// HTTP request
 const makeRequest = () => {
   fetch("https://getbusted.ew.r.appspot.com/submit", {
     method: "POST",
