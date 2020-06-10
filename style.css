@@ -94,6 +94,10 @@ body {
   opacity: 1;
 }
 
+.input-field:focus {
+  color: #202b28;
+}
+
 .input-container .search-icon {
   width: 88px;
   height: 54px;
@@ -101,27 +105,30 @@ body {
   cursor: pointer;
 }
 
+.input-container .search-icon:hover {
+  opacity: 0.7;
+}
+
 .input-design {
   display: flex;
 }
 
 table {
-  font-family: arial, sans-serif;
+  font-family: "Arial", sans-serif;
   border-collapse: collapse;
   width: 100%;
 }
 
 td,
 th {
-  /* border: 1px solid #dddddd; */
   text-align: left;
   padding: 12px;
 }
 
 .example-container {
   height: 670px;
-  /* width: ; */
 }
+
 .example-container .title h1 {
   font-size: 50px;
   text-align: center;
@@ -150,6 +157,35 @@ th {
 
 td {
   padding: 20px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+td:nth-child(2) {
+  font-family: Roboto;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #3a3b3f;
+}
+
+td:nth-child(3) {
+  color: #9ea0a5;
+}
+
+td:last-child {
+  color: #9ea0a5;
+}
+
+.black-text {
+  color: black !important;
+  font-family: "Arial", sans-serif;
+  font-weight: normal !important;
+  font-size: 14px;
+  line-height: 20px;
 }
 
 /* Arrows */
