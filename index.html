@@ -51,25 +51,23 @@
           <p>Get busted with GetBusted</p>
         </div>
         <div class="users-list">
-          <table>
+        <div class="latest-busted">
+          <h4>
+            Latest busted &nbsp; &nbsp;<span class="total-highlighted"
+              ><span class="total-number">25</span> total</span
+            ></h4>
+        </div>
+          <table id="table">
             <tr>
-              <td class="black-text">
-                Latest busted &nbsp; &nbsp;<span class="total-highlighted"
-                  ><span class="total-number">25</span> total</span
-                >
-              </td>
-            </tr>
-            <tr>
-              <td style="width: 25%">Busted ID</td>
-              <td style="width: 25%" class="black-text">Customer</td>
-              <td style="width: 25%" class="black-text">Date</td>
-              <td style="width: 25%" class="black-text">Location</td>
+              <td style="width: 20%">Busted ID</td>
+              <td style="width: 30%" class="black-text">Customer</td>
+              <td style="width: 30%" class="black-text">Date</td>
+              <td style="width: 20%" class="black-text">Location</td>
             </tr>
             <tr id="first-user" class="table-border">
               <td id="id">23412355-2</td>
               <td id="email">Maria Anders</td>
-              <td id="date">04/28/2018</td>
-              
+              <td id="date">04/28/2018</td>              
               <td id="location">Kharkiv, Ukraine</td>
             </tr>
             <tr id="second-user" class="table-border">
@@ -103,20 +101,15 @@
               <td id="date">04/28/2018</td>
               <td id="location">Kharkiv, Ukraine</td>
             </tr>
-            <tr class="table-border">
-              <td></td>
-              <td></td>
-              <td></td>
-              <td>
-                <span class="black-text"><span id="pages-count">1-6</span> of <span class="total-number">25</span> &nbsp;</span
-                ></span>
-                <span><i class="arrow left" id="left-arrow"></i></span>
-                <span class="right-arrow" id="right-arrow">
-                  <i class="arrow right"></i
-                ></span>
-              </td>
-            </tr>
           </table>
+          <div class="pages-and-arrows">
+            <span class="black-text"><span id="pages-count">1-6</span> of <span class="total-number">25</span> &nbsp;</span
+            ></span>
+            <span><i class="arrow left" id="left-arrow"></i></span>
+            <span class="right-arrow" id="right-arrow">
+              <i class="arrow right"></i
+            ></span>
+          </div>
         </div>
       </div>
     </section>

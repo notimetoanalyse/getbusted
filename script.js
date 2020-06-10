@@ -1,7 +1,7 @@
 const button = document.getElementById("submit-button");
 const leftArrow = document.getElementById("left-arrow");
 const rightArrow = document.getElementById("right-arrow");
-const table = document.getElementsByTagName("table")[0];
+const table = document.getElementsByTagName("table");
 let firstUser = document.getElementById("first-user");
 let secondUser = document.getElementById("second-user");
 let thirdUser = document.getElementById("third-user");
@@ -176,6 +176,15 @@ function parseDate(date) {
   ).toString();
   return result.slice(0, 15);
 }
+
+// function checkArrows() {
+//   if (currentPage === 1) {
+//     leftArrow.style.opacity = "20%";
+//   }
+//  else if (currentPage === lastPage) {
+//   rightArrow.style.opacity = "20%";
+// }
+// }
 
 // Event Listeners
 window.addEventListener("load", getLatestBusted);
